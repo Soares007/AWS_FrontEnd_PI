@@ -6,8 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class CcursoService {
-  private apiUrl = 'https://projeto-integrador-1v4i.onrender.com/course/';  // URL principal para cursos
-  private disciplinesUrl = 'https://projeto-integrador-1v4i.onrender.com/subject/';  // URL para buscar as disciplinas
+  private apiUrl = 'https://api.projetointegradoraws.duckdns.org/course/';  // URL principal para cursos
+  private disciplinesUrl = 'https://api.projetointegradoraws.duckdns.org/subject/';  // URL para buscar as disciplinas
 
   constructor(private http: HttpClient) { }
 

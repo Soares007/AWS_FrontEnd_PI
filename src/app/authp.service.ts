@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthpService {
-  private apiUrl = 'https://projeto-integrador-1v4i.onrender.com/teacher/auth';
+  private apiUrl = 'https://api.projetointegradoraws.duckdns.org/teacher/auth';
 
   constructor(private http: HttpClient) {}
 

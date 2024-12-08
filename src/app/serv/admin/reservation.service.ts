@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ReservationService {
-  private jsonUrl = 'https://projeto-integrador-1v4i.onrender.com/reservation/'; 
+  private jsonUrl = 'https://api.projetointegradoraws.duckdns.org/reservation/';
 
   constructor(private http: HttpClient) { }
 

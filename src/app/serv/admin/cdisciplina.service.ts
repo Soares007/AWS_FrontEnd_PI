@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class CdisciplinaService {
-  private apiUrl = 'https://projeto-integrador-1v4i.onrender.com/subject/';
+  private apiUrl = 'https://api.projetointegradoraws.duckdns.org/subject/';
 
   constructor(private http: HttpClient) {}
 

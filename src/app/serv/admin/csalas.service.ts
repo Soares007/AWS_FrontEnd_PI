@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class CsalasService {
-  private apiUrl = 'https://projeto-integrador-1v4i.onrender.com/rooms/';
+  private apiUrl = 'https://api.projetointegradoraws.duckdns.org/rooms/';
 
   constructor(private http: HttpClient) { }
 

@@ -1,6 +1,6 @@
 {
   "/auth": {
-    "target": "https://projeto-integrador-1v4i.onrender.com",
+    "target": "https://api.projetointegradoraws.duckdns.org",
     "secure": true,
     "changeOrigin": true,
     "logLevel": "debug"

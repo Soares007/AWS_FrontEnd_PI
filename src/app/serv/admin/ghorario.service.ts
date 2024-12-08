@@ -6,12 +6,12 @@
     providedIn: 'root',
   })
   export class GhorarioService {
-    private apiUrl = 'https://projeto-integrador-1v4i.onrender.com/reservation/';
-    private teachersUrl = 'https://projeto-integrador-1v4i.onrender.com/teacher/';
-    private subjectsUrl = 'https://projeto-integrador-1v4i.onrender.com/subject/';
-    private timesUrl = 'https://projeto-integrador-1v4i.onrender.com/time/';
-    private roomsUrl = 'https://projeto-integrador-1v4i.onrender.com/rooms/';
-    private coursesUrl = 'https://projeto-integrador-1v4i.onrender.com/course/';
+    private apiUrl = 'https://api.projetointegradoraws.duckdns.org/reservation/';
+    private teachersUrl = 'https://api.projetointegradoraws.duckdns.org/teacher/';
+    private subjectsUrl = 'https://api.projetointegradoraws.duckdns.org/subject/';
+    private timesUrl = 'https://api.projetointegradoraws.duckdns.org/time/';
+    private roomsUrl = 'https://api.projetointegradoraws.duckdns.org/rooms/';
+    private coursesUrl = 'https://api.projetointegradoraws.duckdns.org/course/';
 
     constructor(private http: HttpClient) {}
 
